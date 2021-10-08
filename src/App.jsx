@@ -44,32 +44,32 @@ const App = () => {
 
             <h1 className="text-3xl mb-5 uppercase font-montserrat-bold text-green-500 mt-10"> Skills </h1>
             <div className="grid grid-cols-12 gap-5">
-              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+              <div className="col-span-6 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
                 <img src={LaravelLogo} className="h-12" alt="Laravel" />
                 <p className="font-montserrat-bold mt-3"> Laravel </p>
               </div>
 
-              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+              <div className="col-span-6 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
                 <img src={ReactLogo} className="h-12" alt="React" />
                 <p className="font-montserrat-bold mt-3"> React </p>
               </div>
 
-              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+              <div className="col-span-6 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
                 <img src={ReduxLogo} className="h-12" alt="Redux" />
                 <p className="font-montserrat-bold mt-3"> Redux </p>
               </div>
 
-              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+              <div className="col-span-6 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
                 <img src={ReduxSagaLogo} className="h-12" alt="Redux-Saga" />
                 <p className="font-montserrat-bold mt-3"> Redux-Saga </p>
               </div>
 
-              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+              <div className="col-span-6 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
                 <img src={VueLogo} className="h-12" alt="Vue" />
                 <p className="font-montserrat-bold mt-3"> Vue </p>
               </div>
 
-              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+              <div className="col-span-6 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
                 <img src={TSLogo} className="h-12" alt="TypeScript" />
                 <p className="font-montserrat-bold mt-3"> TypeScript </p>
               </div>
