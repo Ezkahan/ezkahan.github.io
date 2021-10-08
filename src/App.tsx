@@ -1,25 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Header';
+import './main.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <section className="flex px-10 font-montserrat-medium">
+        <main className="container grid grid-cols-12 gap-5 mx-auto">
+          <aside className="col-span-12 lg:col-span-4 bg-green text-gray-100 p-5 lg:p-16">
+            <h1 className="text-3xl mb-5 uppercase text-white font-montserrat-bold"> Education </h1>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima earum atque, non, assumenda hic eius iure perspiciatis labore ea dolore maiores magni autem dolorum ex voluptate? At dolores officiis adipisci? </p>
+          </aside>
+
+          <aside className="col-span-12 lg:col-span-8 text-sm p-5 lg:p-16">
+            <h1 className="text-3xl mb-5 uppercase font-montserrat-bold"> Experience </h1>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima earum atque, non, assumenda hic eius iure perspiciatis labore ea dolore maiores magni autem dolorum ex voluptate? At dolores officiis adipisci? </p>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima earum atque, non, assumenda hic eius iure perspiciatis labore ea dolore maiores magni autem dolorum ex voluptate? At dolores officiis adipisci? </p>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima earum atque, non, assumenda hic eius iure perspiciatis labore ea dolore maiores magni autem dolorum ex voluptate? At dolores officiis adipisci? </p>
+          
+            <h1 className="text-3xl mb-5 uppercase font-montserrat-bold mt-10"> Skills </h1>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima earum atque, non, assumenda hic eius iure perspiciatis labore ea dolore maiores magni autem dolorum ex voluptate? At dolores officiis adipisci? </p>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima earum atque, non, assumenda hic eius iure perspiciatis labore ea dolore maiores magni autem dolorum ex voluptate? At dolores officiis adipisci? </p>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima earum atque, non, assumenda hic eius iure perspiciatis labore ea dolore maiores magni autem dolorum ex voluptate? At dolores officiis adipisci? </p>
+          </aside>
+        </main>
+      </section>
+    </>
   );
 }
 
