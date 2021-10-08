@@ -11,7 +11,7 @@ const Header: React.FC = () => {
 
                 <main className="flex flex-col lg:px-10 mt-10 lg:mt-0 lg:ml-14">
                     <aside className="font-hacker">
-                        <h1 className="text-6xl"> Ezkahan Dev </h1>
+                        <h1 className="text-6xl"> Aymedow Eziz </h1>
                         <h3 className="absolute text-2xl bg-gray-700 px-1"> Fullstack developer </h3>
                     </aside>
 
