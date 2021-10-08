@@ -6,7 +6,7 @@ const Header: React.FC = () => {
             <main className="container mx-auto flex flex-col items-center lg:items-start lg:flex-row">
                 <aside className="relative w-56 h-72 p-5">
                     <img className="absolute top-0 left-0 w-full h-full z-50" src={AEDEV} alt="Ezkahan" />
-                    <div className="bg-green w-full h-full absolute -bottom-4 -right-4"></div>
+                    <div className="bg-gray-700 w-full h-full absolute -bottom-4 -right-4"></div>
                 </aside>
 
                 <main className="flex flex-col lg:px-10 mt-10 lg:mt-0 lg:ml-14">
