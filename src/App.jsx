@@ -5,6 +5,8 @@ import LaravelLogo from './assets/images/Logos/laravel.svg'
 import ReactLogo from './assets/images/Logos/react.svg'
 import ReduxLogo from './assets/images/Logos/redux.svg'
 import ReduxSagaLogo from './assets/images/Logos/redux-saga.svg'
+import VueLogo from './assets/images/Logos/vue.svg'
+import TSLogo from './assets/images/Logos/typescript.svg'
 
 const App = () => {
   return (
@@ -41,25 +43,35 @@ const App = () => {
             </div>
 
             <h1 className="text-3xl mb-5 uppercase font-montserrat-bold text-green-500 mt-10"> Skills </h1>
-            <div className="flex">
-              <div className="flex flex-col items-center justify-center border mr-5 mb-5 px-5 py-3">
+            <div className="grid grid-cols-12 gap-5">
+              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
                 <img src={LaravelLogo} className="h-12" alt="Laravel" />
                 <p className="font-montserrat-bold mt-3"> Laravel </p>
               </div>
 
-              <div className="flex flex-col items-center justify-center border mr-5 mb-5 px-5 py-3">
-                <img src={ReactLogo} className="h-12" alt="Laravel" />
+              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+                <img src={ReactLogo} className="h-12" alt="React" />
                 <p className="font-montserrat-bold mt-3"> React </p>
               </div>
 
-              <div className="flex flex-col items-center justify-center border mr-5 mb-5 px-5 py-3">
-                <img src={ReduxLogo} className="h-12" alt="Laravel" />
+              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+                <img src={ReduxLogo} className="h-12" alt="Redux" />
                 <p className="font-montserrat-bold mt-3"> Redux </p>
               </div>
 
-              <div className="flex flex-col items-center justify-center border mr-5 mb-5 px-5 py-3">
-                <img src={ReduxSagaLogo} className="h-12" alt="Laravel" />
+              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+                <img src={ReduxSagaLogo} className="h-12" alt="Redux-Saga" />
                 <p className="font-montserrat-bold mt-3"> Redux-Saga </p>
+              </div>
+
+              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+                <img src={VueLogo} className="h-12" alt="Vue" />
+                <p className="font-montserrat-bold mt-3"> Vue </p>
+              </div>
+
+              <div className="col-span-4 lg:col-span-3 flex flex-col items-center justify-center w-full border px-5 py-3">
+                <img src={TSLogo} className="h-12" alt="TypeScript" />
+                <p className="font-montserrat-bold mt-3"> TypeScript </p>
               </div>
             </div>
 
