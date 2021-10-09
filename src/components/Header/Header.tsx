@@ -3,7 +3,7 @@ import AEDEV from '../../assets/images/AE_dev.jpg'
 const Header: React.FC = () => {
     return (
         <header className="bg-gray-900 text-white p-7 lg:p-16">
-            <main className="container mx-auto flex flex-row justify-center lg:justify-start lg:items-start">
+            <section className="container mx-auto flex flex-row justify-center lg:justify-start lg:items-start">
                 <img className="w-24 h-28 lg:w-40 lg:h-48" src={AEDEV} alt="Ezkahan" />
 
                 <main className="flex flex-col ml-5 lg:px-10 lg:ml-7">
@@ -24,23 +24,7 @@ const Header: React.FC = () => {
                         </div>
                     </aside>
                 </main>
-
-                {/* <aside className="font-montserrat-medium mt-16">
-                    <div className="my-3">
-                        
-                    </div>
-                    
-                    <div className="my-3">
-                        <p className="text-sm font-bold"> Email: </p>
-                        <small className="text-gray-400"> ezkahan.dev@gmail.com </small>
-                    </div>
-
-                    <div className="my-3">
-                        <p className="text-sm font-bold"> Level: </p>
-                        <small className="text-gray-400"> Middle developer </small>
-                    </div>
-                </aside> */}
-            </main>
+            </section>
         </header>
     )
 }
