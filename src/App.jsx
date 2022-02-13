@@ -8,16 +8,15 @@ import ReactLogo from "./assets/images/Logos/react.svg";
 import ReduxLogo from "./assets/images/Logos/redux.svg";
 import ReduxSagaLogo from "./assets/images/Logos/redux-saga.svg";
 import TSLogo from "./assets/images/Logos/typescript.svg";
-import Docker from './assets/images/Logos/docker.svg'
-import Github from './assets/images/Logos/github.svg'
-import Linux from './assets/images/Logos/linux.svg'
-import Rabbitmq from './assets/images/Logos/rabbitmq.svg'
-import PHPUnit from './assets/images/Logos/phpunit.svg'
-import Composer from './assets/images/Logos/composer.svg'
-import Apollo from './assets/images/Logos/apollo.svg'
-import GraphQL from './assets/images/Logos/graphql.svg'
-import Redis from './assets/images/Logos/redis.svg'
-
+import Docker from "./assets/images/Logos/docker.svg";
+import Github from "./assets/images/Logos/github.svg";
+import Linux from "./assets/images/Logos/linux.svg";
+import Rabbitmq from "./assets/images/Logos/rabbitmq.svg";
+import PHPUnit from "./assets/images/Logos/phpunit.svg";
+import Composer from "./assets/images/Logos/composer.svg";
+import Apollo from "./assets/images/Logos/apollo.svg";
+import GraphQL from "./assets/images/Logos/graphql.svg";
+import Redis from "./assets/images/Logos/redis.svg";
 
 const App = () => {
   const skills = [
@@ -111,9 +110,9 @@ const App = () => {
   return (
     <>
       <Header />
-      <section className="flex flex-col items-center px-10 font-montserrat-medium">
+      <section className="flex flex-col items-center px-2 xl:px-10 font-montserrat-medium">
         <main className="container grid grid-cols-12 gap-5 mx-auto">
-          <aside className="col-span-12 lg:col-span-4 bg-gray-100 text-gray-800 p-5 lg:p-12 h-96 rounded-b-xl">
+          <aside className="col-span-12 lg:col-span-4 bg-gray-100 text-gray-800 p-5 lg:p-12 h-68 xl:h-96 rounded-b-xl">
             <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500">
               Experience
             </h1>
@@ -150,13 +149,31 @@ const App = () => {
               mongodb, Symfony. Laravel, Yii, react, Vue, angular
             </p>
 
+            <hr className="my-5" />
+
+            <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500 mt-5 lg:mt-10">
+              Languages
+            </h1>
+            <div className="flex">
+              <p className="bg-gray-100 px-3 py-1 rounded-lg mr-3">Turkmen</p>
+              <p className="bg-gray-100 px-3 py-1 rounded-lg mr-3">Russian</p>
+              <p className="bg-gray-100 px-3 py-1 rounded-lg mr-3">English</p>
+            </div>
+
+            <hr className="my-5" />
+
             <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500 mt-5 lg:mt-10">
               Skills
             </h1>
-            <div className="grid grid-cols-12 gap-5">
+            <div className="grid grid-cols-12 gap-3 xl:gap-5">
               {skills.map((skill, index) => {
                 return (
-                  <Skill key={index} logo={skill.logo} title={skill.title} year={skill.year} />
+                  <Skill
+                    key={index}
+                    logo={skill.logo}
+                    title={skill.title}
+                    year={skill.year}
+                  />
                 );
               })}
             </div>

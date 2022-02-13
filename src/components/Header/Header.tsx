@@ -4,7 +4,7 @@ const Header: React.FC = () => {
     return (
         <header className="bg-gray-900 text-white p-7 lg:p-16">
             <section className="w-7/12 mx-auto flex flex-row justify-center lg:justify-start lg:items-start">
-                <img className=" h-56 rounded-lg" src={AEDEV} alt="Ezkahan" />
+                <img className="xl:h-56 h-48 rounded-lg" src={AEDEV} alt="Ezkahan" />
 
                 <main className="flex flex-col ml-5 lg:px-10 lg:ml-7">
                     <aside className="">
@@ -23,13 +23,13 @@ const Header: React.FC = () => {
                             </div>
                         </div>
 
-                        <div className="font-montserrat-medium text-xs lg:text-sm flex justify-between mt-5">
+                        <div className="font-montserrat-medium text-xs lg:text-sm flex flex-col xl:flex-row justify-between mt-2 xl:mt-5">
                             <div>
                                 <p> Github: </p>
                                 <small className="text-gray-400"> https://github.com/ezkahan </small>
                             </div>
                             
-                            <div className="ml-5">
+                            <div className="xl:ml-5 mt-2 xl:mt-0">
                                 <p> Location: </p>
                                 <small className="text-gray-400"> Ashgabat, Turkmenistan </small>
                             </div>
