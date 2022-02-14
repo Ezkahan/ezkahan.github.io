@@ -112,7 +112,7 @@ const App = () => {
       <Header />
       <section className="flex flex-col items-center px-2 xl:px-10 font-montserrat-medium">
         <main className="container grid grid-cols-12 gap-5 mx-auto">
-          <aside className="col-span-12 lg:col-span-4 bg-gray-100 text-gray-800 p-5 lg:p-12 h-68 xl:h-96 rounded-b-xl">
+          <aside className="col-span-12 lg:col-span-4 bg-gray-100 text-gray-800 p-5 lg:p-12 h-68 xl:h-96 sticky top-0 rounded-b-xl">
             <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500">
               Experience
             </h1>
