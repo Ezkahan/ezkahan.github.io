@@ -2,6 +2,7 @@ import Header from "./components/Header/Header";
 import Skill from "./components/Skill/Skill";
 import Experience from "./components/Experience/Experience";
 import "./tailwind.css";
+import OGUZLY from "./assets/images/Oguzly.png";
 
 import LaravelLogo from "./assets/images/Logos/laravel.svg";
 import ReactLogo from "./assets/images/Logos/react.svg";
@@ -109,26 +110,16 @@ const App = () => {
 
   return (
     <>
-      <Header />
       <section className="flex flex-col items-center px-2 xl:px-10 font-montserrat-medium">
         <main className="container grid grid-cols-12 gap-5 mx-auto">
-          <aside className="col-span-12 lg:col-span-4 bg-gray-100 text-gray-800 p-5 lg:p-12 h-68 xl:h-96 sticky top-0 rounded-b-xl">
-            <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500">
-              Experience
-            </h1>
-            {experiences.map((experience) => {
-              return (
-                <Experience
-                  company={experience.company}
-                  level={experience.level}
-                  date={experience.date}
-                />
-              );
-            })}
+          <aside className="col-span-12 lg:col-span-4 h-68 xl:h-96 xl:sticky xl:top-0 ">
+            <img src={OGUZLY} alt="Oguzly" className="w-48 mx-auto p-5" />
+            
+            <Header/>
           </aside>
 
-          <aside className="col-span-12 lg:col-span-8 px-5 lg:p-12 font-montserrat-medium">
-            <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500">
+          <aside className="col-span-12 lg:col-span-8 px-5 font-montserrat-medium">
+            <h1 className="text-lg lg:text-2xl my-5 uppercase font-montserrat-bold text-green-500">
               About
             </h1>
             <p className="text-sm lg:text-md text-gray-600">
@@ -151,7 +142,7 @@ const App = () => {
 
             <hr className="my-5" />
 
-            <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500 mt-5 lg:mt-10">
+            <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500 mt-5">
               Languages
             </h1>
             <div className="flex">
@@ -162,7 +153,22 @@ const App = () => {
 
             <hr className="my-5" />
 
-            <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500 mt-5 lg:mt-10">
+            <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500">
+              Experience
+            </h1>
+            {experiences.map((experience) => {
+              return (
+                <Experience
+                  company={experience.company}
+                  level={experience.level}
+                  date={experience.date}
+                />
+              );
+            })}
+
+            <hr className="my-5" />
+
+              <h1 className="text-lg lg:text-2xl mb-2 lg:mb-5 uppercase font-montserrat-bold text-green-500 mt-5">
               Skills
             </h1>
             <div className="grid grid-cols-12 gap-3 xl:gap-5">
