@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.98c39127.chunk.css",
-    "main.js": "/static/js/main.76e66b32.chunk.js",
-    "main.js.map": "/static/js/main.76e66b32.chunk.js.map",
+    "main.css": "/static/css/main.c206c4d9.chunk.css",
+    "main.js": "/static/js/main.4137a29a.chunk.js",
+    "main.js.map": "/static/js/main.4137a29a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3d39deaf.js",
     "runtime-main.js.map": "/static/js/runtime-main.3d39deaf.js.map",
     "static/js/2.f84ac388.chunk.js": "/static/js/2.f84ac388.chunk.js",
     "static/js/2.f84ac388.chunk.js.map": "/static/js/2.f84ac388.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.98c39127.chunk.css.map": "/static/css/main.98c39127.chunk.css.map",
+    "static/css/main.c206c4d9.chunk.css.map": "/static/css/main.c206c4d9.chunk.css.map",
     "static/js/2.f84ac388.chunk.js.LICENSE.txt": "/static/js/2.f84ac388.chunk.js.LICENSE.txt",
     "static/media/AE_dev.0cfcec20.jpg": "/static/media/AE_dev.0cfcec20.jpg",
     "static/media/tailwind.css": "/static/media/Montserrat-Medium.e2d60bc4.ttf",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.3d39deaf.js",
     "static/js/2.f84ac388.chunk.js",
-    "static/css/main.98c39127.chunk.css",
-    "static/js/main.76e66b32.chunk.js"
+    "static/css/main.c206c4d9.chunk.css",
+    "static/js/main.4137a29a.chunk.js"
   ]
 }
